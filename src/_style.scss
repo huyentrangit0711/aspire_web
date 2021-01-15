@@ -1,0 +1,43 @@
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-size: 14px;
+  color: #222222;
+}
+form {
+  padding: 25px;
+}
+//Left Sidebar
+.left-sidebar {
+  background-color: #0C365A;
+  color: #fff;
+  .sidebar-wrapper {
+    padding: 48px 43px 0 33px;
+    &__logo {
+      padding-bottom: 15px;
+    }
+  }
+}
+#app .row {
+  height: 100vh;
+}
+.container {
+  max-width: 1366px;
+}
+//Loan Form Application
+.loan--form {
+  padding: 60px 45px;
+
+}
+//Loan Details Application
+.loan--detail {
+  padding-top: 60px;
+}
+
